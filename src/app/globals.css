@@ -2,7 +2,7 @@
 
 :root {
   --Blacky: #050505;
-  --BlackyFade: #05050577;
+  --BlackyFade: #050505d0;
   --Whitey: #f9f6fe;
   --WhiteyFade: #f5f0ff70;
   --Prime: #27004e;
@@ -11,7 +11,7 @@
   --SecoundFade: #824dff69;
   --Assend: #6c6c6a;
   --AssendFade: #6c6c6a39;
-  --textColor: #f5f0ff;
+  --textColor: #050505;
   --Bluey: #030014;
   --BlueyFade: #030014c9;
 }
@@ -36,10 +36,10 @@
 }
 
 body {
-  background: var(--Blacky);
+  background: var(--Whitey);
   color: var(--textColor);
   font-family: var(--font-Second);
-  box-shadow: 0 0 30px var(--Blacky) inset;
+  /* box-shadow: 0 0 30px var(--Blacky) inset; */
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
   user-select: none;
@@ -55,7 +55,7 @@ h5,
 h6 {
   font-family: var(--font-Prime);
   font-weight: bolder;
-  letter-spacing: 2.5px;
+  letter-spacing: 2 px;
 }
 
 .strokeWhitey {
@@ -100,7 +100,7 @@ h6 {
   text-shadow: 0 0 10px var(--Assend), 0 0 20px var(--Assend);
 }
 
-.Masked {
+/* .Masked {
   -webkit-mask: linear-gradient(
     90deg,
     transparent,
@@ -115,4 +115,4 @@ h6 {
     var(--Blacky) 80%,
     transparent
   );
-}
+} */
